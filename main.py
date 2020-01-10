@@ -4,9 +4,9 @@ import numpy as np
 
 app=Flask(__name__)
 
-loaded_model = pickle.load(open("c:/Users/antho/Documents/FTDS/Data Engineering/Deploying/Web/bostonhousinglinmodel.pkl","rb"))
+loaded_model = pickle.load(open("bostonhousinglinmodel.pkl","rb"))
 
-loaded_scaler_model = pickle.load(open("c:/Users/antho/Documents/FTDS/Data Engineering/Deploying/Web/scalermodel.pkl","rb"))
+loaded_scaler_model = pickle.load(open("scalermodel.pkl","rb"))
 
 @app.route('/')
 def home():
