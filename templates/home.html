@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bouston Housing Prediction Demo</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+
+<h1>Boston Housing</h1>
+<p> Please fill in the values below to predict median value of owner-occupied homes in \$1000s.</p>
+
+<form action="/result" method="POST">
+
+    <label></label>
+    <input type="text" name="rm">
+    <br>
+    <label></label>
+    <input type="text" name="ptratio">
+    <br>
+    <label></label>
+    <input type="text" name="lstat">
+    <br>
+    <input type="submit" value="Submit">
+
+
+</form>
+
+</body>
+</html>
