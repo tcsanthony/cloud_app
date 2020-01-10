@@ -68,6 +68,7 @@ google-pasta==0.1.8
 graphviz==0.13.2
 greenlet==0.4.15
 grpcio==1.26.0
+gunicorn==19.6.0
 h5py==2.9.0
 HeapDict==1.0.1
 html5lib==1.0.1
